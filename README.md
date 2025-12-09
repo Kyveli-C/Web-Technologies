@@ -8,6 +8,7 @@ Includes
 -video tag
 -iframe tag
 -Back to the top button
+-vieo and iframe adjust to the screen size, they do not keep their original size
 
 ##Products Page
 -dispalys products
