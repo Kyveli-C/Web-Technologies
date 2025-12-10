@@ -1,0 +1,232 @@
+
+/*****************************************************************************
+/******************************ALL PAGES*************************************
+******************************************************************************/
+            
+/*BURGER MENU*/	
+		
+.fullScreen{
+   display:flex;
+   gap:20px;               /*distance between links*/
+   margin-left:auto;       
+   padding-right:70px;
+}
+
+.fullScreen a{
+	display:block;
+	color:white;
+	text-decoration:none;
+}
+
+.icon{
+	display:none;
+	position:absolute;
+	top:30px;
+	right:20px;
+	font-size:30px;
+	color:white;
+}
+
+.logo img{
+	text-align:left;
+	width:200px;
+	height:80px;
+	padding-top:30px;
+	padding-left:30px;	
+}
+
+/*Description: responsive screen
+/* Author:w3schools
+/*n.d.
+/*https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+
+@media screen and (max-width:739px){  /*screens with less than 739px */
+	.fullScreen{
+	display:none;
+	flex-direction:column;  /* show links in column*/
+	width:100%;             /* the size of the column*/
+	background-color:#7b1113 ;
+	top:130px;
+	left:10px;
+	position:absolute;
+   }
+	
+	.fullScreen a{
+	padding:5px;
+	text-align:center;
+   }
+   
+   .logo img{
+	text-align:left;
+	width:200px;
+	height:80px;
+	padding-top:10px;
+	padding-left:30px;	
+   }
+   
+   .icon{
+	display:block;	
+    top:70px;	   
+   }	
+}
+
+
+/* BUTTONS */
+
+/*GO TO THE TOP BUTTON */
+#buttonTop{
+	position:absolute;
+	right:100px;
+	margin-top:500px;
+	background-color:#BE1622;
+	color:white;
+	border:none;
+	padding:10px;
+}
+
+#buttonTop:hover{
+	background-color:#919CAD;
+}
+
+/*HEADER*/
+
+#header{
+	width:100%;
+	height:100px;
+	border: 1px solid #34516C;
+    background-color:#34516C;
+	border-radius:5px;
+	padding:15px;
+	padding-left:30px;
+}
+
+#header .logo {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+
+
+/* FOOTER */
+
+#footer{
+	display:flex;
+	border: 1px solid #BE1622;
+    background-color:#BE1622;
+	margin-top:700px;
+	}
+
+.contact{
+	margin-left:50px;
+	color:white; 
+
+}
+
+.address{
+	margin-left:50px;
+	margin-bottom:10px;
+    color:white;
+	padding:20px;
+}
+
+
+/*****************************************************************************
+/******************************INDEX PAGE*************************************
+******************************************************************************/
+
+#intro{
+	text-align:center;
+	font-size:1.5vw;
+	color:black;
+}
+
+.videoTop video{
+	
+    width:100%;
+    height:500px;	
+	
+}	
+
+.videoBottom iframe{
+	margin-top:70px;
+	width:100%;
+    height:500px;	
+	
+}
+
+
+/*****************************************************************************
+/******************************PRODUCTS PAGE*************************************
+*****************************************************************************/
+
+.titleProducts{
+	color:#BE1622;
+	text-align:center;
+	font-family:Roboto;
+	font-size:40px;
+	font-weight:bold;	
+}
+
+#products {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+    justify-content:center;
+	text-align:center;
+}
+		
+#cartButton{
+	background-color:#006250;
+	color:white;
+	padding:15px;
+	border-radius:5px;
+	border:1px solid white;
+}
+	
+#cartButton:hover{
+	background-color:#919CAD;
+}
+
+#detailsButton{
+	background-color:#006250;
+	color:white;
+	padding:5px;
+	border-radius:5px;
+	border:1px solid white;
+}
+
+#detailsButton:hover{
+	background-color:#919CAD;
+}
+
+#stockFilter{
+	background-color:#339933;
+	margin-left:50px;
+	color:white;
+	padding:5px;
+	text-align:center;
+	border:3px solid #919CAD;
+	cursor: pointer;	
+}
+
+/*****************************************************************************
+/******************************CART PAGE*************************************
+*****************************************************************************/
+
+#cartItems{
+  margin:50px;
+  text-align:center;
+}
+
+#discount{
+	 float:right;
+}
+
+#Discount{
+text-align:right;
+}
+
+#selectedProduct{
+	 display: flex;
+}
