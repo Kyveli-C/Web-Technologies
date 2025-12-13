@@ -33,3 +33,13 @@ Description: Online store selling UClan merchandise.
 15.	(Advanced) Item page: Page should be fully functional, making correct use of appropriate HTML5 API (local Storage) to set and retrieve data for the shopping cart. Page should offer a ‘Add to Cart’ button to actuate this.
 
 16.	HTML5 semantic elements: Include and explain (via commentary of first instance in the code, and as part of lab demo when prompted) application of HTML5 semantic mark-up, as applied throughout your application.
+
+17.	17. (Advanced) shopping cart: This should include the option to apply and validate an offer code, to recalculate a total order value. For the higher marks, this could also include the ability to: view the item, change thequantity, remove an item, empty the basket. Cart must be fully functional (i.e., offer all above) for full marks.
+
+18. Website is fully validated: All pages pass HTML and CSS validation checks with no significant errors. You may be expected to demonstrate this to your tutor (when prompted). WCAG guidelines have been consulted.
+
+19. Adoption of version control with regular quality commits: GitHub has been explored and adopted, and application of version control has been evidenced (during the demo) and has been applied to a high standard.
+
+20. Represent a professional looking website with no significant usability flaws: Submission must benefit from evidence of wider reading (evidenced within code or README) to address usability and accessibility considerations. Pages are expected (as a minimum) to address usability topics covered in the module and
+ should exhibit little to no usability flaws. For the highest marks, pages must show consideration for
+contemporary practice, and may work to add features, which improve the ‘experience’ of using the website.
